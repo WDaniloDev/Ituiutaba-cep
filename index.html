@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEPs — Ituiutaba / MG | Sistemas de Informação UEMG</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="logo-area">
+                <img src="./assets/logoSI.jpeg" alt="Logotipo do curso de Sistemas de Informação da UEMG Carangola" class="site-logo">
+                <div class="logo-text">
+                    <h1>Sistemas de Informação</h1>
+                    <span>UEMG Unidade Carangola</span>
+                </div>
+            </div>
+            <nav class="header-nav" aria-label="Navegação principal">
+                <a href="#busca">Consulta de CEP</a>
+                <a href="#sobre-cidade">Ituiutaba</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section" aria-labelledby="hero-title">
+        <div class="container hero-content">
+            <span class="hero-badge">Ituiutaba — Minas Gerais</span>
+            <h2 id="hero-title">Consulta Canônica de Logradouros e CEPs</h2>
+            <p>Pesquise ruas, avenidas e praças de Ituiutaba com preenchimento automático a partir de 3 caracteres.</p>
+
+            <div class="search-box-wrapper" id="busca">
+                <div class="search-input-container">
+                    <label for="searchInput" class="sr-only">Buscar logradouro, bairro ou CEP em Ituiutaba</label>
+                    <input type="text" id="searchInput" placeholder="Digite ao menos 3 letras (ex: José João, Getúlio, Centro)..." autocomplete="off">
+                </div>
+                <div id="autocompleteList" class="autocomplete-dropdown hidden" role="listbox" aria-label="Sugestões de logradouros"></div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container main-content">
+        <section id="resultSection" class="result-card hidden" aria-live="polite">
+            <div class="result-header">
+                <h3>Detalhes do Logradouro</h3>
+                <span class="badge-status">Ituiutaba - MG</span>
+            </div>
+            <div class="result-grid">
+                <div class="result-item">
+                    <span class="label">Logradouro</span>
+                    <span id="resLogradouro">-</span>
+                </div>
+                <div class="result-item">
+                    <span class="label">Bairro</span>
+                    <span id="resBairro">-</span>
+                </div>
+                <div class="result-item">
+                    <span class="label">Localidade / UF</span>
+                    <span id="resCidade">-</span>
+                </div>
+                <div class="result-item cep-highlight-box">
+                    <span class="label">CEP</span>
+                    <span id="resCep" class="cep-value">-</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-cidade" class="city-info-section">
+            <div class="city-info-icon" aria-hidden="true">📍</div>
+            <div class="city-info-text">
+                <h3>Sobre Ituiutaba - MG</h3>
+                <p>Ituiutaba é um importante município do Triângulo Mineiro e integra o conjunto de cidades com unidades da Universidade do Estado de Minas Gerais (UEMG), servindo como base para esta consulta canônica de logradouros e CEPs.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-logos">
+                <div class="footer-logo-item">
+                    <img src="./assets/logoSI.jpeg" alt="Logotipo Sistemas de Informação UEMG" class="footer-logo-img">
+                    <div>
+                        <p class="footer-title">Sistemas de Informação — 2º Período</p>
+                        <p class="footer-sub">Programação 2 • UEMG Carangola</p>
+                    </div>
+                </div>
+                <a href="https://www.uemg.br/carangola" target="_blank" rel="noopener noreferrer" class="footer-logo-item footer-link-card" title="Acessar site oficial da UEMG Carangola">
+                    <img src="./assets/logoUEMG.jpeg" alt="Logotipo da UEMG Unidade Carangola" class="footer-logo-img">
+                    <div>
+                        <p class="footer-title">UEMG Unidade Carangola</p>
+                        <p class="footer-sub">Portal institucional ↗</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="footer-links">
+                <button type="button" class="modal-trigger" data-modal="modalSobre">Sobre</button>
+                <button type="button" class="modal-trigger" data-modal="modalTermos">Termos de Uso</button>
+                <button type="button" class="modal-trigger" data-modal="modalPrivacidade">Privacidade</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 UEMG Unidade Acadêmica de Carangola — Programação 2.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Sobre -->
+    <div id="modalSobre" class="modal" role="dialog" aria-modal="true" aria-labelledby="tituloModalSobre">
+        <div class="modal-content">
+            <button type="button" class="close-btn" aria-label="Fechar janela">&times;</button>
+            <h3 id="tituloModalSobre">Sobre o Projeto</h3>
+            <p><strong>Sobre o Projeto:</strong> Esta landing page foi desenvolvida como atividade prática da disciplina de <strong>Programação 2</strong>, para a turma do <strong>2º Período</strong> do curso de Bacharelado em <strong>Sistemas de Informação</strong> da <strong>Universidade do Estado de Minas Gerais (UEMG) — Unidade Acadêmica de Carangola</strong>, com foco na manipulação de JSON local, HTML5 semântico, CSS3 puro e JavaScript Vanilla para o município de <strong>Ituiutaba - MG</strong>.</p>
+            <p><strong>Equipe de Desenvolvimento:</strong> Aoliabe F.S Silva, Erick Lima de Moraes, Diego Danilo Miranda Gomes Xavier da Costa.</p>
+            <hr>
+            <h4>Nota de Transparência sobre o Uso de IA</h4>
+            <p>Em consonância com os princípios de integridade acadêmica e transparência tecnológica, declara-se que ferramentas de Inteligência Artificial generativa <strong>foram</strong> utilizadas durante o desenvolvimento deste projeto. Foram aplicadas como suporte na estruturação de código semântico, depuração de lógica em JavaScript Vanilla e revisão de estilos CSS, sendo toda a arquitetura, consolidação dos dados, testes e validação final concebidos e auditados pela equipe.</p>
+        </div>
+    </div>
+
+    <!-- Modal Termos de Uso -->
+    <div id="modalTermos" class="modal" role="dialog" aria-modal="true" aria-labelledby="tituloModalTermos">
+        <div class="modal-content">
+            <button type="button" class="close-btn" aria-label="Fechar janela">&times;</button>
+            <h3 id="tituloModalTermos">Termos de Uso</h3>
+            <p><strong>1. Finalidade Acadêmica:</strong> Esta aplicação web possui finalidade exclusivamente didática e pedagógica, vinculada às atividades formativas da UEMG Unidade Carangola.</p>
+            <p><strong>2. Natureza dos Dados:</strong> As informações de logradouros e Códigos de Endereçamento Postal (CEP) foram extraídas de bases públicas (ViaCEP) para Ituiutaba - MG e são apresentadas em caráter meramente informativo, sem garantias de atualização cadastral em tempo real.</p>
+            <p><strong>3. Isenção de Responsabilidade:</strong> Os autores e a instituição não se responsabilizam por eventuais divergências cadastrais perante a Empresa Brasileira de Correios e Telégrafos ou por utilizações comerciais indevidas desta plataforma.</p>
+        </div>
+    </div>
+
+    <!-- Modal Política de Privacidade -->
+    <div id="modalPrivacidade" class="modal" role="dialog" aria-modal="true" aria-labelledby="tituloModalPrivacidade">
+        <div class="modal-content">
+            <button type="button" class="close-btn" aria-label="Fechar janela">&times;</button>
+            <h3 id="tituloModalPrivacidade">Política de Privacidade</h3>
+            <p><strong>1. Não Coleta de Dados Pessoais:</strong> Esta landing page não coleta, não solicita, não processa e não armazena quaisquer dados de identificação pessoal, cookies de rastreamento ou dados sensíveis dos visitantes.</p>
+            <p><strong>2. Execução Local:</strong> As consultas aos logradouros e CEPs são filtradas localmente na memória do navegador do usuário a partir do arquivo estático <code>./data/ceps.json</code>, inexistindo comunicação de telemetria com servidores de rastreamento externos.</p>
+            <p><strong>3. Conformidade:</strong> Esta aplicação segue os princípios fundamentais da Lei Geral de Proteção de Dados Pessoais (LGPD — Lei Federal nº 13.709/2018), pautando-se na minimização absoluta de dados e na transparência.</p>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

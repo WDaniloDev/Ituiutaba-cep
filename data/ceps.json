@@ -1,0 +1,26 @@
+{
+  "municipio": "Ituiutaba",
+  "uf": "MG",
+  "logradouros": [
+    { "cep": "38300-102", "tipo": "Avenida", "logradouro": "José João Dib", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-142", "tipo": "Avenida", "logradouro": "Onze", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-134", "tipo": "Avenida", "logradouro": "Quinze", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-152", "tipo": "Avenida", "logradouro": "Sete", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-160", "tipo": "Avenida", "logradouro": "Três", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38304-439", "tipo": "Avenida", "logradouro": "Acácio Alves Cintra Sobrinho", "bairro": "Nova Ituiutaba II", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-063", "tipo": "Avenida", "logradouro": "Marginal", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38307-030", "tipo": "Avenida", "logradouro": "Minas Gerais", "bairro": "Alvorada", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38302-000", "tipo": "Avenida", "logradouro": "Deputado Jamel Cecílio", "bairro": "Progresso", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-126", "tipo": "Praça", "logradouro": "Getúlio Vargas", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-144", "tipo": "Praça", "logradouro": "Adelino de Oliveira Carvalho", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-146", "tipo": "Praça", "logradouro": "Cônego Ângelo Tardio Bruno", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-108", "tipo": "Praça", "logradouro": "Treze de Maio", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38302-102", "tipo": "Rua", "logradouro": "A", "bairro": "Ipiranga", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38305-530", "tipo": "Rua", "logradouro": "Abrão André Andraus", "bairro": "Gerson Baduy I", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38302-172", "tipo": "Rua", "logradouro": "Abadio Costa", "bairro": "Universitário", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-072", "tipo": "Rua", "logradouro": "Dezoito", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38300-054", "tipo": "Rua", "logradouro": "Quatro", "bairro": "Centro", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38301-212", "tipo": "Rua", "logradouro": "22 de Outubro", "bairro": "Bela Vista", "localidade": "Ituiutaba", "uf": "MG" },
+    { "cep": "38304-120", "tipo": "Rua", "logradouro": "Floriano Peixoto", "bairro": "Brasil", "localidade": "Ituiutaba", "uf": "MG" }
+  ]
+}
